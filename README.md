@@ -8,7 +8,6 @@ This is based on the GPanel Sprite API, and the Server/Client code given from th
 -> Basically just sending Strings
 
 The code is quite a lot, but some features worth mentioning:
-- Custom API for the graphics, hitboxes, positions, updating them etc. The API brings the jar for the graphics given to me by my CS teacher to its knees
-- All Network traffic is handled by enumerators: The Name of the packet correlates with the enumerator, which then automatically redirects the data.
+- Custom API for the graphics, hitboxes, positions, updating them etc. The API brings the jar for the graphics given to me by my CS teacher to its knees, as the jar itself ist just meant to display images or colors on a window (not full on games with refresh rates)
+- All Network traffic is handled by enumerators: The Name of the packet correlates with the enumerator, which then automatically redirects the data, which makes the code very OOP friendly, modular and expandable.
 - A Constants Interface, where everything can be changed easily (Important: FPS, scale of the window and cooking times.)
-- 
